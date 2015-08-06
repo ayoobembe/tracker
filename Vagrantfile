@@ -11,6 +11,9 @@ Vagrant.configure(2) do |config|
   #Using hashicorp provided box: precise64
   config.vm.box = "hashicorp/precise64"
 
+  #location from which to download box if not already on users computer
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+
   #formward a port from the guest to the host (localhost:8080)
   config.vm.network "forwarded_port", guest: 80, host: 8080
 
@@ -30,7 +33,6 @@ Vagrant.configure(2) do |config|
     chef.add_recipe "mercurial"
     chef.add_recipe "emacs"
     chef.add_recipe "vim"
-    chef.add_recipe "nano"
     chef.add_recipe "tracker::database"
     chef.json = {
       :postgresql => {
