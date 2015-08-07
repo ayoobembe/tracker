@@ -1,0 +1,11 @@
+{
+  "name": "market_tracker",
+  "version": "1.0.0",
+  "description": "Market monitoring utility application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Ayomikun Obembe",
+  "license": "ISC"
+}

@@ -1,2 +1,5 @@
 cookbooks
 .vagrant
+market_tracker/bower_components
+market_tracker/node_modules
+market_tracker/static/bower_components

@@ -1,0 +1,21 @@
+{
+  "name": "market_tracker",
+  "version": "0.0.0",
+  "authors": [
+    "Daniel Ayomikun Obembe"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.3",
+    "angular-resource": "~1.4.3"
+  }
+}
